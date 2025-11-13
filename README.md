@@ -141,7 +141,7 @@ All documents follow a **traceable structure** aligned to BABOK:
 📫 Contact  
 - **LinkedIn:** https://linkedin.com/in/pham-nguyen-ky-duyen-699697209  
 - **Email:** kyduyenpham779@gmail.com  
-- **Portfolio:** https://github.com/kyduyenpham/deanpham  
+- **Portfolio:** https://github.com/kyduyenpham
 
 ---
 
