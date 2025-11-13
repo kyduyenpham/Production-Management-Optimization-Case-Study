@@ -1,113 +1,149 @@
 # 🏭 Production Management Optimization Case  
-**A Business Analyst Case Study by Dean Phạm**  
+**A Business Analyst Case Study by Dean Phạm**
+
+<p align="center">
+  <img src="./PMO_Covers.png" width="500" />
+</p>
+
+A complete end-to-end Business Analysis case study simulating how to optimize **production management for small and medium-sized manufacturing enterprises (SMEs)** through **digital transformation** and **lean workflow redesign**.
+
+This project follows a full BA lifecycle — **Initiation → Elicitation → Analysis → Design → Validation** — using BABOK-aligned practices.
+
+---
+
+## 📑 Table of Contents  
+1. [Project Overview](#-project-overview)  
+2. [Business Objective](#-business-objective)  
+3. [Project Structure](#-project-structure)  
+4. [Tools & Techniques](#-tools--techniques)  
+5. [Key Insights](#-key-insights)  
+6. [Expected Business Impact](#-expected-business-impact)  
+7. [Repository Contents](#-repository-contents)  
+8. [About the Analyst](#-about-the-analyst)
 
 ---
 
 ## 🧭 Project Overview  
 
-This project presents a **Business Analysis case study** on optimizing **production management processes for small and medium-sized manufacturing enterprises (SMEs)**.  
+This case study explores how SMEs can modernize and streamline their production operations by transitioning from **manual spreadsheets and disconnected systems** to a **centralized Production Management System (PMS)**.
 
-The goal was to **reduce inefficiencies, manual work, and data fragmentation** by proposing a **lean digital Production Management System (PMS)** that integrates planning, operations, and HR data for real-time visibility and performance tracking.  
-
-The case study simulates a real-world BA workflow — from stakeholder elicitation to requirement documentation and solution design — following **BABOK-aligned practices**.  
+The initiative aims to reduce operational delays, improve accuracy, and enhance visibility across departments — including **Planning, Production, HR, and Quality Control**.
 
 ---
 
 ## 🎯 Business Objective  
 
-> To streamline production operations for SMEs by introducing a simple, scalable, and affordable digital workflow that improves planning accuracy, reduces downtime, and enhances decision-making visibility.  
+> **To transform SME production operations into a digital, data-driven workflow by implementing a lightweight, scalable Production Management System (PMS).**
 
-**Expected Outcomes:**  
-- Reduce manual reporting and delays by automating daily operation tracking  
-- Integrate HR attendance with production planning  
-- Visualize machine and operator performance (OEE, downtime, efficiency)  
-- Improve data accuracy and team collaboration across departments  
+### ✔ Expected Outcomes:
+- Automated daily production reporting  
+- HR attendance integrated with shift scheduling  
+- Real-time visibility into machine & operator performance (OEE, downtime, output)  
+- Reduced process delays and manual errors  
+- Improved cross-department collaboration  
 
 ---
 
 ## 🧩 Project Structure  
 
-| # | Document Title | Description |
-|--|----------------|--------------|
-| 1 | **Project Charter** | Defines the project scope, goals, stakeholders, and success criteria. |
-| 2 | **Business Needs & Objectives** | Identifies business pain points and improvement opportunities for SME production systems. |
-| 3 | **Stakeholder Mapping & Analysis** | Defines key internal and external stakeholders, their influence, and information needs. |
-| 4 | **Stakeholder Requirement Elicitation Plan & Interview Guide** | Outlines approach and questions used to gather user requirements. |
-| 5 | **Requirement Gathering Report** | Summarizes findings from stakeholder interviews and workshops. |
-| 6 | **AS-IS Process Mapping** | Documents the current (manual) production workflow using flow diagrams. |
-| 7 | **AS-IS Process Analysis** | Analyzes inefficiencies, bottlenecks, and data gaps in the existing workflow. |
-| 8 | **TO-BE Process (Solution Design)** | Proposes an optimized digital workflow and automation process. |
-| 9 | **Gap Analysis** | Highlights differences between current and future states, prioritizing improvements. |
-| 10 | **Functional Requirement Specification** | Defines required system functions such as scheduling, reporting, and data integration. |
-| 11 | **Non-Functional Requirements** | Specifies performance, usability, scalability, and security requirements. |
-| 12 | **Feasibility and Requirement Analysis** | Evaluates technical, financial, and operational feasibility. |
-| 13 | **Solution Setup** | Details proposed architecture and tool selection (e.g., PMS, Power BI, HR integration). |
-| 14 | **Business Requirements Document (BRD)** | Consolidates all validated requirements and serves as a handover document for development. |
+Below is the full documentation structure included in this case study:
+
+| # | Document Title | File | Description |
+|---|---------------|-------|-------------|
+| 1 | **Project Charter** | [01_Project_Charter.pdf](./01_Project_Charter.pdf) | Defines scope, goals, timeline, and success criteria |
+| 2 | **Business Needs & Objectives** | [02_BUSINESS_NEEDS__OBJECTIVES.pdf](./02_BUSINESS_NEEDS__OBJECTIVES.pdf) | Identifies inefficiencies & improvement opportunities |
+| 3 | **Stakeholder Mapping & Analysis** | [03_Stakeholder_Mapping__Analysis.pdf](./03_Stakeholder_Mapping__Analysis.pdf) | Stakeholder roles, influence, expectations |
+| 4 | **Elicitation Plan & Interview Guide** | [04_Stakeholder_Requirement_Elicitation_Plan__Interview_Guide.pdf](./04_Stakeholder_Requirement_Elicitation_Plan__Interview_Guide.pdf) | Elicitation strategy & interview questions |
+| 5 | **Requirement Gathering Report** | [05_Requirement_Gathering_Report.pdf](./05_Requirement_Gathering_Report.pdf) | Summary of user needs & insights |
+| 6 | **AS-IS Process Mapping** | [06_AS_-_IS_PROCESS_MAPPING.pdf](./06_AS_-_IS_PROCESS_MAPPING.pdf) | Current workflows & process flows |
+| 7 | **AS-IS Process Analysis** | [07_AS-IS_PROCESS_ANALYSIS_(INEFFICIENCIES_DELAYS_BOTTLENECKS).pdf](./07_AS-IS_PROCESS_ANALYSIS_(INEFFICIENCIES_DELAYS_BOTTLENECKS).pdf) | Pain points, delays, bottlenecks |
+| 8 | **TO-BE Process Design** | [08_TO-BE_PROCESS_(Solution_Design).pdf](./08_TO-BE_PROCESS_(Solution_Design).pdf) | Optimized future-state workflow |
+| 9 | **Gap Analysis** | [09_Gap_Analysis.pdf](./09_Gap_Analysis.pdf) | Current vs future gaps, recommendations |
+| 10 | **Functional Requirements** | [10_Functional_Requirement.pdf](./10_Functional_Requirement.pdf) | Features needed for PMS |
+| 11 | **Non-Functional Requirements** | [11_Non_Functional_Requirement.pdf](./11_Non_Functional_Requirement.pdf) | Usability, performance, scalability requirements |
+| 12 | **Feasibility & Requirement Analysis** | [12_Feasibility_and_Requirement_Analysis.pdf](./12_Feasibility_and_Requirement_Analysis.pdf) | Technical & financial feasibility |
+| 13 | **Solution Setup** | [13_Solution_SET-UP.pdf](./13_Solution_SET-UP.pdf) | Recommended architecture, BI, attendance integration |
+| 14 | **Business Requirements Document (BRD)** | [14_Business_Requirements_Document_(BRD).pdf](./14_Business_Requirements_Document_(BRD).pdf) | Consolidated BRD for implementation |
+
+---
+
+## 📊 Process Visualization  
+
+### AS-IS Workflow  
+<p align="center">
+  <img src="./AS-IS Diagram.png" width="1000">
+</p>
+
+### TO-BE Workflow  
+<p align="center">
+  <img src="./TO-BE Diagram.png" width="1000">
+</p>
 
 ---
 
 ## ⚙️ Tools & Techniques  
 
 | Category | Tools / Methods |
-|-----------|----------------|
-| **Business Analysis Framework** | BABOK v3 |
-| **Process Design & Mapping** | Draw.io |
-| **Requirement Elicitation** | Interviews, Observation, Document Analysis |
-| **Data Visualization** | Power BI, Google Data Studio |
-| **Documentation & Collaboration** | Google Workspace, Notion, Miro |
-| **Solution Recommendation** | Odoo ERP / Google AppScript, Power Automate |
+|---------|----------------|
+| **BA Standards** | BABOK v3 |
+| **Modeling** | Draw.io |
+| **Elicitation** | Interviews, Observation, Document Review |
+| **Data Visualization** | Power BI, Looker Studio |
+| **Collaboration** | Google Workspace, Notion, Miro |
+| **Solution Options** | Odoo ERP, Google AppScript, Power Automate |
 
 ---
 
 ## 🧠 Key Insights  
 
-- **Manual production management** in SMEs leads to errors, scheduling conflicts, and limited visibility.  
-- By introducing **digital workflows**, even small factories can achieve:  
-  - Centralized data access  
-  - Real-time KPI monitoring  
-  - 30–40% reduction in process delays  
-- The **solution design** focuses on affordability and scalability — a crucial factor for SME adoption.
+- Manual Excel-based workflows create data fragmentation and delays  
+- Lack of real-time production visibility increases downtime  
+- Poor scheduling accuracy impacts utilization & delivery time  
+- Digital workflows significantly reduce operational waste  
+- Low-cost PMS + BI dashboards provide high value for SMEs  
 
 ---
 
-## 📊 Expected Business Impact  
+## 📈 Expected Business Impact  
 
-| Metric | Before | After Implementation |
-|--------|--------|----------------------|
-| Planning time | 3–4 hrs/day | <1 hr/day |
-| Manual reporting errors | ~20% | <5% |
-| Decision latency | 1 day | Real-time |
-| Machine downtime | 15% | <8% |
-| Data consistency | 60% | 95% |
+| Metric | Before | After |
+|--------|--------|--------|
+| Planning time | 3–4 hrs/day | **<1 hr/day** |
+| Reporting errors | ~20% | **<5%** |
+| Decision latency | 1 day | **Real-time** |
+| Machine downtime | 15% | **<8%** |
+| Data consistency | 60% | **95%** |
 
 ---
 
 ## 📁 Repository Contents  
 
-This repository includes all project documentation in PDF format:  
-- ✅ **Business & Functional Analysis**  
-- ✅ **Process Maps (AS-IS / TO-BE)**  
-- ✅ **Requirements Documentation (BRD, FRD, NFRD)**  
-- ✅ **Solution Design & Feasibility Report**
+This repository contains all final PDF documents:  
+- 🟦 Process Mapping (AS-IS, TO-BE)  
+- 🟧 Requirements Documentation  
+- 🟪 Gap & Feasibility Analysis  
+- 🟩 BRD & Architecture  
 
-Each file is structured for clear traceability across the **BA lifecycle**:
-> *Initiation → Elicitation → Analysis → Design → Validation.*
+All documents follow a **traceable structure** aligned to BABOK:
+
+> **Business Need → Stakeholder Analysis → Elicitation → Requirements → Design → Validation**
 
 ---
 
 ## 💼 About the Analyst  
 
 👤 **Dean Phạm**  
-**Role:** Project Lead / Business Analyst  
-**Focus Areas:** Business Process Optimization, UX Thinking, Product Development  
+**Role:** Business Analyst / Project Lead  
+**Specialization:** Process Optimization, UX Thinking, Product Improvement  
 
-💬 *I’m passionate about connecting business needs with data, design, and technology to create measurable, human-centered solutions.*  
+💬 *I focus on designing practical, human-centered workflows that optimize business operations and improve long-term scalability.*
 
-📫 **Contact:**  
-- [LinkedIn](https://linkedin.com/in/pham-nguyen-ky-duyen-699697209)  
-- [Email](mailto:kyduyenpham779@gmail.com)  
-- [Portfolio](https://github.com/kyduyenpham/deanpham)
+📫 Contact  
+- **LinkedIn:** https://linkedin.com/in/pham-nguyen-ky-duyen-699697209  
+- **Email:** kyduyenpham779@gmail.com  
+- **Portfolio:** https://github.com/kyduyenpham/deanpham  
 
 ---
 
-> 🧩 *This project demonstrates end-to-end Business Analysis capability — from understanding stakeholder needs to defining practical, scalable digital solutions for real-world SME challenges.*
+> 🧩 *This case study demonstrates my ability to translate SME operational challenges into structured requirements and actionable digital solutions.*
+
