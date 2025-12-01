@@ -59,8 +59,8 @@ Below is the full documentation structure included in this case study:
 | 7 | **AS-IS Process Analysis** | [07_AS-IS_PROCESS_ANALYSIS_(INEFFICIENCIES_DELAYS_BOTTLENECKS).pdf](./07_AS-IS_PROCESS_ANALYSIS_(INEFFICIENCIES_DELAYS_BOTTLENECKS).pdf) | Pain points, delays, bottlenecks |
 | 8 | **TO-BE Process Design** | [08_TO-BE_PROCESS_(Solution_Design).pdf](./08_TO-BE_PROCESS_(Solution_Design).pdf) | Optimized future-state workflow |
 | 9 | **Gap Analysis** | [09_Gap_Analysis.pdf](./09_Gap_Analysis.pdf) | Current vs future gaps, recommendations |
-| 10 | **Functional Requirements** | [10_Functional_Requirement.pdf](./10_Functional_Requirement.pdf) | Features needed for PMS |
-| 11 | **Non-Functional Requirements** | [11_Non_Functional_Requirement.pdf](./11_Non_Functional_Requirement.pdf) | Usability, performance, scalability requirements |
+| 10 | **Functional Requirements** | [10&11_Software Requirements Specification (SRS).pdf](./10&11_Software Requirements Specification (SRS).pdf) | Features needed for PMS |
+| 11 | **Non-Functional Requirements** | [10&11_Software Requirements Specification (SRS).pdf](./10&11_Software Requirements Specification (SRS).pdf) | Usability, performance, scalability requirements |
 | 12 | **Feasibility & Requirement Analysis** | [12_Feasibility_and_Requirement_Analysis.pdf](./12_Feasibility_and_Requirement_Analysis.pdf) | Technical & financial feasibility |
 | 13 | **Solution Setup** | [13_Solution_SET-UP.pdf](./13_Solution_SET-UP.pdf) | Recommended architecture, BI, attendance integration |
 | 14 | **Business Requirements Document (BRD)** | [14_Business_Requirements_Document_(BRD).pdf](./14_Business_Requirements_Document_(BRD).pdf) | Consolidated BRD for implementation |
